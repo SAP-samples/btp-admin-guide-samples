@@ -31,7 +31,7 @@ jobs:
 
       - name: Set default labels
         if: ${{ github.actor != 'dependabot[bot]' }}
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           TITLE: ${{ github.event.pull_request.title }}
         with:
