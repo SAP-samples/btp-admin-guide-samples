@@ -7,13 +7,13 @@ This module encapsulates the creation of a directory on SAP BTP following standa
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.11 |
-| <a name="requirement_btp"></a> [btp](#requirement\_btp) | >= 1.15.0 |
+| <a name="requirement_btp"></a> [btp](#requirement\_btp) | >= 1.18.1 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_btp"></a> [btp](#provider\_btp) | 1.15.0 |
+| <a name="provider_btp"></a> [btp](#provider\_btp) | 1.18.1 |
 
 ## Modules
 
