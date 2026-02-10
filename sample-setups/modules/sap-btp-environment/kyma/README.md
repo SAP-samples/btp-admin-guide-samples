@@ -7,13 +7,13 @@ This module encapsulates the creation of a Kyma runtime in a subaccount on SAP B
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.11 |
-| <a name="requirement_btp"></a> [btp](#requirement\_btp) | >= 1.18.1 |
+| <a name="requirement_btp"></a> [btp](#requirement\_btp) | >= 1.19.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_btp"></a> [btp](#provider\_btp) | >= 1.18.1 |
+| <a name="provider_btp"></a> [btp](#provider\_btp) | >= 1.19.0 |
 
 ## Modules
 
