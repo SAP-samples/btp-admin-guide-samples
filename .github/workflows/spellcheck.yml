@@ -1,4 +1,8 @@
 name: Spell Checker
+
+permissions:
+  contents: read
+
 on:
   pull_request:
     types:
@@ -7,6 +11,7 @@ on:
       - synchronize
       - ready_for_review
   workflow_dispatch:
+  
 jobs:
   check-spelling:
     runs-on: ubuntu-latest

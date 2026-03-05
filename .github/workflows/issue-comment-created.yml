@@ -1,5 +1,9 @@
 name: Issue Comment Created Triage
 
+permissions:
+      contents: read
+      issues: write
+
 on:
   issue_comment:
     types: [created]
