@@ -1,5 +1,9 @@
 name: "Feature Request - Community Note"
 
+permissions:
+    contents: read
+    issues: write
+
 on:
   issues:
     types:
